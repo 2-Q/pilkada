@@ -1,0 +1,234 @@
+  .row{
+  	padding: 0 7px;
+  }
+  .col-6{
+  	padding: 0 3px;
+  }
+  /*======================*/
+.bg-bendera{
+	width: 100%;
+	position: absolute;
+	z-index: -1;
+	padding-right: 32px;
+  	height: 45px;
+}
+.header-surat .tengah{
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+.text-header-surat{
+	font-weight: 700;
+	text-align: center;
+  	margin-top: -18px;
+}
+  .batas{
+  	height: 18px;
+  }
+  .header-surat{
+	padding: 10px 10px 0 10px;
+  }
+  .header-surat img{
+	height: 50px;
+  }
+  .surat-header{
+	font-size: 11px;
+  }
+  .tengah div{
+  	height: 11px;
+  }
+  .text-header-surat div{
+  	height: 11px;
+  }
+  .content-surat{
+  	margin-top: 1.5rem;
+  }
+  .card-header span{
+  	font-size: 15px;
+  	font-weight: 600;
+  }
+  .cover-kandidat{
+  	min-height: 220px;
+  }
+  .kandidat{
+  	text-align: center;
+  	font-weight: 600;
+  	margin-bottom: 5px;
+  }
+  .kandidat div{
+  	font-size: 8px;
+  	height: 4px;
+  }
+  .kandidat b{
+  	font-size: 10px;
+  }
+  .title-partai{
+  	font-size: 9px;
+  	text-align: center;
+  }
+	.cover-partai{
+		margin: 5px 10px 20px 10px;
+	}
+	.partai{
+		height: 20px;
+		display: inline-block;
+	}
+	
+/*========================responsive=============================*/
+
+@media (min-width: 576px) {
+  .bg-bendera{
+  	height: 90px;
+  }
+  .surat-header{
+  	font-size: 18px;
+  }
+  .tengah div{
+  	height: 18px;
+  }
+  .text-header-surat div{
+  	height: 18px;
+  }
+  .header-surat img{
+	height: 90px;
+  }
+  .header-surat .tengah{
+	margin-top: -15px;
+  }
+  .header-surat{
+	padding: 40px 25px 0 25px;
+  }
+  .text-header-surat{
+  	margin-top: -45px;
+  }
+  .card-header span{
+  	font-size: 23px;
+  	font-weight: 600;
+  }
+  .cover-kandidat{
+  	min-height: 270px;
+  }
+	.partai{
+		height: 30px;
+		display: inline-block;
+	}
+
+  .kandidat div{
+  	font-size: 10px;
+  	height: 8px;
+  }
+  .kandidat b{
+  	font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  body{
+  	background-color: inherit;
+  }
+	.partai{
+		height: 40px;
+		display: inline-block;
+	}
+  .kandidat div{
+  	font-size: 9px;
+  	height: auto;
+  }
+  .kandidat b{
+  	font-size: 11px;
+  }
+  .title-partai{
+  	font-size: 12px;
+  	text-align: center;
+  }
+  .cover-kandidat{
+  	min-height: 305px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cover-kandidat{
+  	min-height: 350px;
+  }
+  .bg-bendera{
+	height: 120px;
+  }
+  .header-surat img{
+	height: 130px;
+  }
+  .surat-header{
+	font-size: 24px;
+  }
+  .tengah div{
+  	height: 24px;
+  }
+  .text-header-surat div{
+  	height: 24px;
+  }
+  .header-surat .tengah{
+	margin-top: -5px;
+  }
+  .header-surat{
+	padding: 40px 25px 0 25px;
+  }
+  .text-header-surat{
+  	margin-top: -60px;
+  }
+  .content-surat{
+  	margin-top: 3rem;
+  }
+  .card-header span{
+  	font-size: 30px;
+  }
+  .kandidat div{
+  	font-size: 11px;
+  }
+  .kandidat b{
+  	font-weight: 700;
+  	font-size: 14px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .bg-bendera{
+	height: 150px;
+  }
+  .header-surat img{
+	height: 140px;
+  }
+  .header-surat{
+  	padding-top: 65px;
+  }
+  .header-surat .tengah{
+	margin-top: -20px;
+  }
+  .text-header-surat{
+  	margin-top: -65px;
+  }
+  .cover-kandidat{
+  	min-height: 400px;
+  }
+  .title-partai{
+  	font-size: 14px;
+  }
+  .partai{
+  	height: 50px;
+  }
+  .luar{
+    max-width: 800px;
+  }
+
+}
+
+.my-card:hover{
+  /*cursor: pointer;*/
+  box-shadow: 1px 1px 15px black;
+}
+.my-card{
+  height: 100%;
+  /*margin-bottom: 1rem;*/
+}
+.card-body{
+  padding: 0;
+}

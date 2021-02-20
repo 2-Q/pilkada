@@ -1,0 +1,52 @@
+.my-col-md-6{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.vektor{
+	width: 80%;
+	max-width: 350px;
+}
+.cover-tulisan{
+	margin-top: 2rem;
+}
+.besar{
+	font-size: 25px;
+	font-weight: 600;
+}
+
+ @media (min-width: 768px){
+	.my-col-md-6 {
+	    -ms-flex: 0 0 50%;
+	    flex: 0 0 50%;
+	    max-width: 50%;
+	}
+	.vektor{
+		float: right;
+	}
+	.cover-tulisan{
+		margin-top: 5rem;
+	}
+}
+
+ @media (max-width: 768px){
+
+	.my-col-md-6 {
+		text-align: center;
+	}
+ }
+
+ @media (max-width: 450px){
+
+	.cover-tulisan .kecil{
+		font-size: 13px;
+		font-weight: 600;
+		height: 14px;
+	}
+
+	.cover-tulisan .besar{
+		font-size: 20px;
+		font-weight: 600;
+	}
+ }
